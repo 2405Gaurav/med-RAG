@@ -1,9 +1,6 @@
 const { createClient } = require('@supabase/supabase-js');
 
-const supabase = createClient(
-  'https://lakkilvoutuakyrbtmot.supabase.co',
-  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxha2tpbHZvdXR1YWt5cmJ0bW90Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjE0NTQ2MTcsImV4cCI6MjA3NzAzMDYxN30.cYyYfrTkkTBsJGhFKdDOGR8NNxYA0Mkh_G7kkoiJn9c'
-);
+
 
 const sampleEntities = [
   {
