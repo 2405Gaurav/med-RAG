@@ -47,7 +47,7 @@ export async function POST(request) {
 
     const docResults = await retrieveDocuments(subQueries);
     const retrievedDocs = docResults.results || [];
-
+//so iam using the supabase migration here and the path to use it is,
     const synthesizedAnswer = await synthesizeAnswer(
       message,
       subQueries,
